@@ -1,5 +1,6 @@
 import os
 import requests
 
-os.system("git clone github.com/EletrixtimeYT/eletrixtool.git")
+os.system("git clone git@github.com:EletrixtimeYT/eletrixtool.git")
 os.system("python /eletrixtool/main.py")
+os.system("python3 /eletrixtool/main.py")
