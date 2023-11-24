@@ -9,6 +9,7 @@ def receive_messages(s):
     while True:
         try:
             message = s.recv(1024).decode()
+            print()
             print(message)
         except Exception as e:
             print(f"Error receiving message: {e}")
